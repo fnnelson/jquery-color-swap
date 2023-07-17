@@ -8,6 +8,8 @@ function onReady() {
     // console.log('ready jQuery');
     $('#generate-button').on('click', handleGenerate)
     $('#div-landing-pad').on('click', '.yellow-button', handleYellow)
+    $('#div-landing-pad').on('click', '.delete-button', handleDelete)
+    
 }
 
 function handleGenerate() {
@@ -26,4 +28,8 @@ function handleGenerate() {
 function handleYellow() {
     // console.log('Yellow!');
     $(this).parent().parent().addClass('change-to-yellow')
+}
+
+function handleDelete() {
+    $(this).parent().parent().remove()
 }
