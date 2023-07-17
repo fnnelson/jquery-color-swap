@@ -1,11 +1,12 @@
-div {
+.big-div {
   background-color: red;
-  margin: 2% 0;  
-  padding: 20px;
+  margin: 2% 0;
+  width: 100%;
+  padding: 0;
 }
 
-div > button {
-float: right;
+p {
+  font-size: 1.25em;
 }
 
 .change-to-yellow {
