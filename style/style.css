@@ -1,0 +1,9 @@
+div {
+  background-color: red;
+  margin: 2% 0;  
+  padding: 20px;
+}
+
+div > button {
+float: right;
+}
